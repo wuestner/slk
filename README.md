@@ -1,1 +1,72 @@
-TEST
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>SLK R171 Restaurierungstagebuch</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .entry {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #0074D9;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #0074D9;
+    }
+    .date {
+      font-size: 0.9rem;
+      color: #888;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 4px;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mercedes SLK R171 – Restaurierungstagebuch</h1>
+    <p>Einblicke, Pflege und Updates rund um meinen Kompressor-Roadster</p>
+  </header>
+
+  <section class="entry">
+    <h2>Schaltsack aus Leder erneuert</h2>
+    <div class="date">April 2025</div>
+    <p>Der originale Schaltsack war nach 16 Jahren rissig und spröde. Ich habe ihn gegen einen hochwertigen Lederschaltsack aus Italien ersetzt. Bezogen bei <strong>iartepelle</strong>, Einbau in Eigenregie mit Kontaktkleber. Das Ergebnis ist optisch und haptisch deutlich wertiger.</p>
+    <img src="schaltsack-nachher.jpg" alt="Schaltsack neu eingebaut">
+  </section>
+
+  <section class="entry">
+    <h2>Dachgummis & Türdichtungen gepflegt</h2>
+    <div class="date">April 2025</div>
+    <p>Behandlung aller Dach- und Türdichtungen mit Krytox zur Erhaltung der Elastizität und Dichtheit. Empfehlung: mindestens 1x jährlich anwenden.</p>
+  </section>
+
+  <section class="entry">
+    <h2>Großer Wartungsservice durchgeführt</h2>
+    <div class="date">24. April 2025</div>
+    <p>Folgende Arbeiten wurden in der Werkstatt erledigt:</p>
+    <ul>
+      <li>Getriebeölwechsel</li>
+      <li>Differenzialölwechsel</li>
+      <li>Servolenkungsflüssigkeit erneuert</li>
+      <li>Kühlmittel erneuert</li>
+      <li>Kompressoröl gewechselt</li>
+      <li>Benzinfilter ersetzt</li>
+      <li>Zündkerzen erneuert</li>
+    </ul>
+  </section>
+</body>
+</html>
